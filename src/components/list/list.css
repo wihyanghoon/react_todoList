@@ -1,0 +1,44 @@
+.list_card {
+    margin-top: 20px;
+}
+
+.list_card li {
+    width: 25%;
+    padding: 10px;
+    background-color: #ebecf0;
+    box-shadow: -2px -2px 5px rgba(255, 255, 255, 1),
+              3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.list_card h5 {
+    font-size: 21px;
+}
+
+.list_card p {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.btn_area{
+    display: flex;
+    gap: 10px;
+    margin-top:15px;
+}
+
+.btn_area button {
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #185af2;
+    padding: 10px 10px;
+    background-color: #ebecf0;
+    box-shadow: -2px -2px 5px rgba(255, 255, 255, 1),
+              3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn_area button:hover {
+    box-shadow: inset -2px -2px 5px rgba(255, 255, 255, 1),
+    inset 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
